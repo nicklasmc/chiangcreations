@@ -48,3 +48,24 @@ hr {
   color: white !important;
   width: 100%;
 }
+
+@media screen and (max-width: 600px) {
+  .footer-links {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    gap: 1rem;
+  }
+
+  .footer-links-div {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-lower {
+    flex-direction: column-reverse;
+    gap: 1rem;
+  }
+}

@@ -15,7 +15,6 @@ const App = () => {
         <Hero/>
         <div className='container'>
           <About/>
-          <Title subTitle='Contact Us' title='Get in touch'/>
           <Contact/>
         </div>
         <Footer/>
