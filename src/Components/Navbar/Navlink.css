@@ -5,8 +5,8 @@
 
 .Navlink-link {
   position: relative;
-  color: white;
   text-decoration: none;
+  color: inherit;
 }
 
 .Navlink-underline {
