@@ -6,11 +6,12 @@
   max-width: 90%;
   margin: 80px auto;
   padding: 4px;
+  gap: 1rem;
 }
 
 .biography img {
-  width: 180px;
-  height: auto;
+  width: 200px;
+  height: 267px;
 }
 
 .bio-section-1 {

@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import './Navbar.css'
 import placeholder from '../../assets/placeholder.jpg'
+import chiang from '../../assets/ChiangCreations.jpg'
+import logo from '../../assets/ChiangCreations_transparent.png'
 import Navlink from './Navlink.jsx'
 import menu from '../../assets/hamburger.png'
 
@@ -21,7 +23,9 @@ const Navbar = () => {
 
   return (
     <nav className={`container ${sticky ? 'dark-nav' : ''}`}>
-      <img src={placeholder} alt="placeholder image" className='navlogo'/>
+      <a href='/' alt='ChiangCreations Logo'>
+        <img src={logo} alt='ChiangCreations Logo' className='navlogo'/>
+      </a>
       <ul className={mobileMenu ? '' : 'hide-mobile-menu'}>
         <li>
           <Navlink scrollToClassName='hero' smooth='smooth' offset={0} duration={500}>
@@ -31,6 +35,11 @@ const Navbar = () => {
         <li>
           <Navlink scrollToClassName='about' smooth='smooth' offset={-150} duration={500}>
             About
+          </Navlink>
+        </li>
+        <li>
+          <Navlink scrollToClassName='biography' smooth='smooth' offset={-150} duration={500}>
+            Consultants
           </Navlink>
         </li>
         <li>

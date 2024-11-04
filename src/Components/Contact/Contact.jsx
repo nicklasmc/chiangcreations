@@ -1,6 +1,12 @@
 import React from 'react'
 import './Contact.css'
 import placeholder from '../../assets/placeholder.jpg'
+import mail from '../../assets/mail.png'
+import phone from '../../assets/phone.png'
+import address from '../../assets/address.png'
+import person from '../../assets/user-pen.png'
+import email from '../../assets/email.png'
+import message from '../../assets/send.png'
 
 const Contact = () => {
 
@@ -32,12 +38,12 @@ const Contact = () => {
   return (
     <div className='contact'>
       <div className='contact-col'>
-        <h3>Get in touch with us! <img src={placeholder} alt=''/></h3>
+        <h3>Get in touch with us!</h3>
         <p>Please use the contact form below to send us feedback, ask questions, or provide suggestions!</p>
         <ul>
-          <li><img src={placeholder} alt=''/>chiangcreations@yahoo.com</li>
-          <li><img src={placeholder} alt=''/>(XXX)XXX-XXXX</li>
-          <li><img src={placeholder} alt=''/>1234 Street Street, City <br/> State Zip, County</li>
+          <li><img src={mail} alt=''/>chiangcreations@yahoo.com</li>
+          <li><img src={phone} alt=''/>(661)794-9685</li>
+          <li><img src={address} alt=''/>13421 Pergola Avenue, Bakersfield <br/> CA, 93314, Kern County</li>
         </ul>
       </div>
 
@@ -45,7 +51,7 @@ const Contact = () => {
         <form onSubmit={onSubmit}>
           <div className='signup-label-container'>
               <label className='signup-label'>
-                <img src=''/>
+                <img src={person}/>
                 <input
                   type='text'
                   id='name'
@@ -58,7 +64,7 @@ const Contact = () => {
 
           <div className='signup-label-container'>
               <label className='signup-label'>
-                <img src=''/>
+              <img src={email}/>
                 <input
                   type='email'
                   id='email'
@@ -71,7 +77,6 @@ const Contact = () => {
 
           <div className='signup-label-container'>
               <label className='signup-label'>
-                <img src=''/>
                 <textarea 
                   name='message'
                   rows='6'

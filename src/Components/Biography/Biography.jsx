@@ -1,13 +1,15 @@
 import React from 'react'
 import './Biography.css'
 import placeholder from '../../assets/placeholder.jpg'
+import amber from '../../assets/AmberChiang.jpg'
+import charley from '../../assets/CharleyChiang.jpg'
 
 const Biography = () => {
   return (
     <div className='biography'>
       {/*Charley Chiang*/}
       <div className='bio-section-1'>
-        <img src={placeholder}/>
+        <img src={charley}/>
         <p>
           Charley Chiang is an expert with Ellucian Banner Student specializing in California Community Colleges 
           with nearly 30 years of experience in training, support and custom solution development.
@@ -15,7 +17,7 @@ const Biography = () => {
       </div>
       {/*Amber Chiang*/}
       <div className='bio-section-2'>
-        <img src={placeholder}/>
+        <img src={amber}/>
         <p>
           Amber Chiang is a leading professional in image management services with a 25-year career in public relations, 
           crisis communications, marketing, advertising, and social media. 

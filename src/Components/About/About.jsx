@@ -1,12 +1,13 @@
 import React from 'react'
 import './About.css'
 import placeholder from '../../assets/placeholder.jpg'
+import chiang from '../../assets/ChiangCreations.jpg'
 
 const About = () => {
   return (
     <div className='about'>
       <div className='about-left'>
-        <img src={placeholder} className='about-img'/>
+        <img src={chiang} className='about-img'/>
       </div>
       <div className='about-right'>
         <h3>About ChiangCreations</h3>

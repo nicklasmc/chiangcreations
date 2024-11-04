@@ -20,9 +20,6 @@ const Footer = () => {
               </p>
             </Navlink>
           </div>
-          <div>
-            <img src={placeholder} className='navlogo'/>
-          </div>
         </div>
 
         <hr></hr>

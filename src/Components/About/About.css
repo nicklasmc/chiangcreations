@@ -41,6 +41,12 @@
   .about {
     flex-direction: column;
     margin: 80px auto;
+    gap: 1rem;
+  }
+
+  .about-img {
+    width: 400px;
+    border-radius: 10px;
   }
 
   .about-left {
