@@ -10,10 +10,16 @@ const About = () => {
       </div>
       <div className='about-right'>
         <h3>About ChiangCreations</h3>
-        <h2>Title About ChiangCreations</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-          Voluptates asperiores nulla quam, veniam vel dicta eaque. 
-          Quaerat, ipsa architecto. Vitae nam harum nihil nulla ab non pariatur incidunt fuga ipsa.
+        <h2>Visionary Consulting Services</h2>
+        <p>
+          Led by Charley Chiang, an expert in Ellucian Banner and contingent systems for higher education, 
+          and Amber Chiang, an image and branding expert for education, nonprofit, and private sector, 
+          ChiangCreations Consulting provides an integrated team.
+        </p>
+        <p>
+          Clients include Kern Community College District, Imperial Valley College, 
+          Kern County Bar Association, Bakersfield College, Vaperizen, Wok It Out, College of the Siskiyous, 
+          Grace Dance Studio, Idaho Vapor Company, China Palace Restaurant, and College of the Sequoias.
         </p>
       </div>
     </div>

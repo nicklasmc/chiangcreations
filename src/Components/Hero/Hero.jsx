@@ -5,10 +5,11 @@ const Hero = () => {
   return (
     <div className='hero container'>
       <div className='hero-text'>
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-          Cupiditate totam obcaecati quaerat soluta doloremque est quam quod necessitatibus natus repellat amet et, 
-          tempora quis ipsa maiores saepe, perferendis similique cumque?
+        <h1>Reputation management services for nonprofit, education, and private sector.</h1>
+        <p>
+          ChiangCreations Consulting leverages skills and experience in information technology, 
+          enterprise resource systems, student information systems, public relations, marketing, 
+          and social media strategies, to simplify back end and front-facing processes.
         </p>
       </div>
     </div>

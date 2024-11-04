@@ -1,0 +1,31 @@
+.biography {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  max-width: 90%;
+  margin: 80px auto;
+  padding: 4px;
+}
+
+.biography img {
+  width: 180px;
+  height: auto;
+}
+
+.bio-section-1 {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: row;
+  width: 50%;
+}
+
+.bio-section-2 {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex-direction: row-reverse;
+  width: 50%;
+  font-size: 16px;
+}
