@@ -9,7 +9,7 @@ const Biography = () => {
     <div className='biography'>
       {/*Charley Chiang*/}
       <div className='bio-section-1'>
-        <img src={charley}/>
+        <img src={charley} alt="Charley Chiang"/>
         <p>
           Charley Chiang is an expert with Ellucian Banner Student specializing in California Community Colleges 
           with nearly 30 years of experience in training, support and custom solution development.
@@ -17,7 +17,7 @@ const Biography = () => {
       </div>
       {/*Amber Chiang*/}
       <div className='bio-section-2'>
-        <img src={amber}/>
+        <img src={amber} alt="Amber Chiang"/>
         <p>
           Amber Chiang is a leading professional in image management services with a 25-year career in public relations, 
           crisis communications, marketing, advertising, and social media. 
